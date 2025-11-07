@@ -1,3 +1,18 @@
+"""
+NBA Game Data Extract Script
+----------------------------
+Purpose:
+    Pulls NBA game data via the balldontlie API for a given time range (Jan–Mar 2025).
+    Cleans, structures, and loads the results into a local SQLite database.
+
+Usage:
+    python extract_nba_api.py
+
+Dependencies:
+    - requests
+    - pandas
+    - sqlite3 (standard library)
+"""
 import requests
 import pandas as pd
 
